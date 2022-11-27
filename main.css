@@ -1,0 +1,64 @@
+html,body,h1,h2,h3,p,ol,ul,li,a, div{
+    padding:0;
+    border:0;
+    margin:0;
+    font-size: 100%;
+    font:inherit; 
+} /*Before you add classes to any tag you have to right that tags name first. For example we have the div tag, 
+then below you can write the class tags (.tabs and .main.content) to change specific div tags. */
+.ref {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 238, 255);
+}
+.tabs {
+    height: 500;
+    width: 500;
+    padding: 0 0 0 0;
+    margin: 15px auto 25px auto;
+    text-align: center;
+    text-decoration: none;
+} /*first div in index.html*/
+h1,h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}/*second div in index.html*/
+h1 {
+    font-size: 50pt;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 250px 600px 0 600px;
+    border: 6px solid rgb(0, 94, 255);
+    padding: 2px 2px 2px 2px; 
+    
+}
+
+body {
+    background-color: #ffffff;
+} /*All bodies: about.html contact.html and index.html*/
+.home {
+    background-color: #1567a6;
+    background-image: url("images/pexels-pixabay-531880.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: 10px 50px;
+} /*Class home in index.html*/
+.contact_me {
+    background-color: #1567a6;
+    background-image: url("images/pexels-pixabay-531880.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center; 
+
+} /*Body of contact.html*/
+.about_me {
+    background-color: #1567a6;
+    background-image: url("images/pexels-pixabay-531880.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center; 
+}/*Body of about.html*/
+.aboutnav, a {
+    color: yellow;
+    text-decoration: none;
+}
